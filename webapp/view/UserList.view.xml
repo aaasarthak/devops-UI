@@ -1,4 +1,4 @@
-<mvc:View controllerName="Devops.EmployeeMgmtSystem.controller.Detail" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<mvc:View controllerName="Devops.EmployeeMgmtSystem.controller.UserList" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
 	<Page showHeader="false" enableScrolling="true">
 		<content>
 			<Table items="{/}">
@@ -19,13 +19,17 @@
 					<Column>
 						<Text text="Email Address"></Text>
 					</Column>
+					<Column>
+						<Text text="Department ID"></Text>
+					</Column>
 				</columns>
 				<items>
 					<ColumnListItem>
 						<cells>
 							<Text text="{firstName}"></Text>
-							<Text text="{LastName}"></Text>
+							<Text text="{lastName}"></Text>
 							<Text text="{emailId}"></Text>
+							<Text text="{departmentId}"></Text>
 						</cells>
 					</ColumnListItem>
 				</items>

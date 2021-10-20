@@ -81,23 +81,26 @@
 				"name": "RouteHomePage",
 				"pattern": "",
 				"target": ["TargetHomePage"]
+			}, {
+				"pattern": "detail/{id}",
+				"name": "detail",
+				"target": [
+					"Detail"
+				]
+			}, {
+				"pattern": "Department",
+				"name": "Department",
+				"target": [
+					"Department"
+				]
 			},
 			{
-					"pattern": "detail",
-					"name": "detail",
-					"target": [
-						"TargetHomePage",
-						"Detail"
-					]
-				},
-				{
-					"pattern": "Department",
-					"name": "Department",
-					"target": [
-						"Department"
-					]
-				}
-			],
+				"pattern": "User",
+				"name": "User",
+				"target": [
+					"User"
+				]
+			}],
 			"targets": {
 				"TargetHomePage": {
 					"viewType": "XML",
@@ -105,10 +108,14 @@
 				},
 				"Detail": {
 					"viewName": "Detail",
-					"viewType":"XML"
+					"viewType": "XML"
 				},
 				"Department": {
 					"viewName": "DepartmentList",
+					"viewType": "XML"
+				},
+				"User": {
+					"viewName": "UserList",
 					"viewType": "XML"
 				}
 			}
