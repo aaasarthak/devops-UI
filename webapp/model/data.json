@@ -1,0 +1,15 @@
+{
+	"TileCollection" : [
+		{
+			"icon" : "sap-icon://employee",
+			"type" : "Monitor",
+			"title" : "Manage Employees"
+		},
+		{
+			"icon" : "sap-icon://manager",
+			"type" : "Monitor",
+			"title" : "Manage Departments"
+		}
+	
+	]
+}

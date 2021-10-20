@@ -1,0 +1,7 @@
+<mvc:View controllerName="Devops.EmployeeMgmtSystem.controller.Detail" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+				<Page showHeader="true" enableScrolling="true" title="Add and Update Details">
+						<content>
+							<Text>hello!</Text>
+						</content>
+				</Page>
+</mvc:View>

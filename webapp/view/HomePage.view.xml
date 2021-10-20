@@ -1,0 +1,25 @@
+<mvc:View controllerName="Devops.EmployeeMgmtSystem.controller.HomePage" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+			<App id="app">
+				<Page id="page" title="{i18n>title}" showHeader="true" enableScrolling="true">
+						<TileContainer id="container" tiles="{/TileCollection}">
+							<StandardTile icon="{icon}" type="{type}" number="{number}" numberUnit="{numberUnit}" title="{title}" info="{info}" infoState="{infoState}"
+								press="handleTilePress"/>
+						</TileContainer>
+				</Page>
+			</App>
+				</mvc:View>
+<!--<mvc:View height="100%" controllerName="Devops.EmployeeMgmtSystem.controller.HomePage" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">-->
+<!--	<Page showHeader="true" enableScrolling="true" title="Admin Dashboard">-->
+<!--		<TileContainer id="container"  tiles="{/TileCollection}" >-->
+<!--			<StandardTile icon="{icon}" removable="false" type="{type}" number="{number}"  title="{title}" info="{info}" infoState="{infoState}" press="handleTilePress"/>-->
+<!--</TileContainer>-->
+<!--<footer>-->
+<!--	<Toolbar>-->
+<!--		<ToolbarSpacer/>-->
+<!--		<Button text="Customize" press="handleEditPress"/>-->
+<!--		<Button text="Busy state" press="handleBusyPress"/>-->
+<!--		<ToolbarSpacer/>-->
+<!--	</Toolbar>-->
+<!--</footer>-->
+<!--	</Page>-->
+<!--</mvc:View>-->
